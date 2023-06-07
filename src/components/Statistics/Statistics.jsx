@@ -12,14 +12,14 @@ margin: 0;
 const Item = styled.ul`
 font-size: 20px;
 margin: 10px;
-color: rgb(248, 3, 118);
+color: black;
  text-shadow:1px 0 1px #ffffff6f;
   letter-spacing: 2px;
 `;
 
 const Value = styled.span`
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: black;
 `;
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
