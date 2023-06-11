@@ -1,20 +1,7 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import { Wrap, Title } from './Section.styled';
 
-const Wrap = styled.section`
-height: 200px;
- text-align: center;
- `;
 
- const Title = styled.h2`
-  text-align: center;
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: black;
-  text-shadow:2px 0 1px #ffffff6f;
-`;
 
 export const Section = ({ title, children }) => (
   <Wrap>

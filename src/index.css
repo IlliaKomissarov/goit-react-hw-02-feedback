@@ -4,9 +4,9 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  height: 350px;
+  height: 450px;
   padding: 20px;
-  outline: 1px solid rgb(40, 45, 18);
+  outline: 10px solid rgb(27, 32, 8);
   /* border: 4mm ridge rgba(248, 3, 117, 0.836);
     outline: 8px ridge rgba(255, 255, 255, 0.856);
     border-radius: 50px; */
@@ -15,7 +15,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(214, 196, 196);
+  background-color: rgb(179, 145, 145);
+  border-radius: 25%;
 }
 
 code {
